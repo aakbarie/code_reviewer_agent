@@ -1,0 +1,77 @@
+:root {
+  --dark-blue: #212A31;
+  --slate-gray: #2E3944;
+  --teal: #124E66;
+  --light-slate-gray: #748D92;
+  --light-gray: #D3D9D4;
+}
+
+/* General App Background */
+.main {
+    background-color: var(--light-gray); /* Light gray */
+}
+
+/* Header Title */
+h1 {
+    color: var(--dark-blue); /* Dark blue */
+    font-family: Arial, sans-serif;
+}
+
+/* Subheaders */
+h2, h3, h4 {
+    color: var(--dark-blue); /* Dark blue */
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #D3D9D4; /* Brighter color */
+    color: #FFFFFF; /* White for contrast */
+    border: 1px solid var(--dark-blue); /* Dark blue border for consistency */
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+.stButton > button:hover {
+    background-color: #90ADAE; /* Slate gray */
+    color: #FFFFFF;
+        border: 1px solid var(--dark-blue); /* Dark blue border for consistency */
+}
+
+/* Text Area */
+.stTextArea > div > textarea {
+    background-color: var(--light-slate-gray); /* Light slate gray */
+    color: #000000; /* Black for readability */
+    border: 1px solid var(--teal); /* Teal border */
+    font-family: Arial, sans-serif;
+}
+
+/* Info and Warning Messages */
+.stAlert {
+    font-family: Arial, sans-serif;
+}
+.stAlert-success {
+    background-color: var(--light-slate-gray); /* Light slate gray */
+    color: #004400; /* Dark green for readability */
+}
+.stAlert-error {
+    background-color: #FFD6D6; /* Light pastel red */
+    color: #800000; /* Maroon for contrast */
+}
+.stAlert-info {
+    background-color: var(--light-slate-gray); /* Light slate gray */
+    color: #000000; /* Black for readability */
+}
+
+/* Simple Text */
+p, div, span, label {
+    color: var(--slate-gray); /* Slate gray */
+}
+
+/* Selectbox */
+.stSelectbox > div > div > select {
+    background-color: #FFFFFF; /* White background */
+    color: #ffcc00; /* Brighter color for dropdown text */
+    border: 1px solid #FFFFFF;
+    textColor=#ffffff
+    border-radius: 4px;
+    padding: 4px;
+}
