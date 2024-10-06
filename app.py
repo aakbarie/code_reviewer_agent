@@ -39,7 +39,7 @@ def get_code_review(language: str, code: str) -> str:
     try:
         # Initialize the ChatOllama model
         llm = ChatOllama(
-            model="qwen2.5-coder:1.5b-instruct-fp16",  # Ensure this model is available in Ollama
+            model="llama3.2:1b-instruct-fp16",  # Ensure this model is available in Ollama
             temperature=0.7,
             top_k=10,
             top_p=0.95
