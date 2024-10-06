@@ -31,9 +31,9 @@ h2, h3, h4 {
     padding: 8px 16px;
 }
 .stButton > button:hover {
-    background-color: #90ADAE; /* Slate gray */
+    background-color: var(--light-gray); /* Slate gray */
     color: #FFFFFF;
-        border: 1px solid var(--dark-blue); /* Dark blue border for consistency */
+    border: 1px solid var(--dark-blue); /* Dark blue border for consistency */
 }
 
 /* Text Area */
@@ -49,12 +49,12 @@ h2, h3, h4 {
     font-family: Arial, sans-serif;
 }
 .stAlert-success {
-    background-color: var(--light-slate-gray); /* Light slate gray */
-    color: #004400; /* Dark green for readability */
+    background-color: var(--light-gray); /* Light gray */
+    color: var(--dark-blue); /* Dark blue for better alignment with overall scheme */
 }
 .stAlert-error {
-    background-color: #FFD6D6; /* Light pastel red */
-    color: #800000; /* Maroon for contrast */
+    background-color: var(--light-gray); 
+    color: var(--light-gray); 
 }
 .stAlert-info {
     background-color: var(--light-slate-gray); /* Light slate gray */
@@ -62,16 +62,19 @@ h2, h3, h4 {
 }
 
 /* Simple Text */
-p, div, span, label {
+p, div, span {
     color: var(--slate-gray); /* Slate gray */
+}
+
+label {
+    color: var(--light-gray); /* Light slate gray */
 }
 
 /* Selectbox */
 .stSelectbox > div > div > select {
     background-color: #FFFFFF; /* White background */
     color: #ffcc00; /* Brighter color for dropdown text */
-    border: 1px solid #FFFFFF;
-    textColor=#ffffff
+    border: 1px solid var(--teal);
     border-radius: 4px;
     padding: 4px;
 }
