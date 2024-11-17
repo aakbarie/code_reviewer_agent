@@ -39,7 +39,7 @@ h2, h3, h4 {
 /* Text Area */
 .stTextArea > div > textarea {
     background-color: var(--light-slate-gray); /* Light slate gray */
-    color: #000000; /* Black for readability */
+    color: #ffffff; /* Black for readability */
     border: 1px solid var(--teal); /* Teal border */
     font-family: Arial, sans-serif;
 }
